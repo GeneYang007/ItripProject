@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [05/Nov/2020:09:56:53 +0800] "GET /auth/api/dologin?name=itrip@163.com&password=12345 HTTP/1.1" 200 190 http-bio-8081-exec-1 262
+0:0:0:0:0:0:0:1 - - [05/Nov/2020:09:56:53 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8081-exec-3 0
+127.0.0.1 - - [05/Nov/2020:09:58:35 +0800] "POST /auth/api/dologin HTTP/1.0" 200 179 http-bio-8081-exec-5 10
+127.0.0.1 - - [05/Nov/2020:14:41:01 +0800] "POST /auth/api/dologin HTTP/1.0" 200 179 http-bio-8081-exec-1 294
+127.0.0.1 - - [05/Nov/2020:16:27:53 +0800] "POST /auth/api/dologin HTTP/1.0" 200 179 http-bio-8081-exec-1 254
+127.0.0.1 - - [05/Nov/2020:16:31:04 +0800] "POST /auth/api/dologin HTTP/1.0" 200 179 http-bio-8081-exec-2 8
+127.0.0.1 - - [05/Nov/2020:16:32:53 +0800] "POST /auth/api/dologin HTTP/1.0" 200 179 http-bio-8081-exec-3 8
+127.0.0.1 - - [05/Nov/2020:16:57:54 +0800] "POST /auth/api/retoken HTTP/1.0" 404 949 http-bio-8081-exec-4 4

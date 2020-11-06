@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	 <settings>
+	 	<setting name="logImpl" value="LOG4J"/>
+	 </settings>
+	 
+	 <typeAliases>
+	    <!-- 简化实体类名的两种方法 -->
+	 	<!-- <typeAlias alias="C" type="com.entity.CustomEntity"/> 使用简化的别名方法 -->
+	 	<package name="cn.itrip.pojo"/><!-- 使用同一包，程序中使用实体类名 -->
+	 </typeAliases>
+	 
+</configuration>
